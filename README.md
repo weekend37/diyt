@@ -26,11 +26,11 @@ python -m ipykernel install --user --name diyt --display-name "Python (diyt)"
 
 ---
 
-# Experiment
-
-## Overfit to Harry Potter Corpus
+## Experiment: Overfit to Harry Potter Corpus
 
 ![Attention GIF](assets/attention.gif)
+
+Find data in `data/harry_potter.txt`
 
 To train:
 
@@ -38,3 +38,7 @@ To train:
 python src/diyt/pre_train.py
 ```
 
+See notebook `notebooks/playground.ipynb` for generation.
+
+TODO:
+- [ ] Implement KV caching
