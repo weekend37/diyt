@@ -1,0 +1,5 @@
+*.pth
+*.egg-info
+__pycache__
+.venv
+dist/*

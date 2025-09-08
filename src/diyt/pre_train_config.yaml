@@ -1,0 +1,16 @@
+model_config:
+  context_length: 256
+  token_embedding_size: 512
+  decoder_dim: 512
+  n_heads: 4
+  n_decoder_blocks: 8
+  dropout_ratio: 0.1
+
+training_config:
+  batch_size: 64
+  learning_rate: 0.001
+  num_epochs: 200
+  device: "cpu"
+  model_checkpoint_folder: "assets/hp/model_checkpoints"
+  start_from_epoch: 0
+  save_frequency: 50
